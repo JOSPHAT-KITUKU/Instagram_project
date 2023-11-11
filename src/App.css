@@ -1,0 +1,108 @@
+*{
+  box-sizing: border-box;
+}
+.App {
+  background-color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+  font-size: calc(5px + 2vmin);
+}
+.sidenav_btn_wrp{
+  flex-basis: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid #d3d3d3;
+  background-color: rgb(245, 245, 245);
+  position: fixed;
+  height: 99%;
+}
+.sidenav_btn_wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+    height: fit-content;
+  border-radius: 15px;
+}
+.txtarea:focus{
+  outline: none;
+}
+.posts{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 60%;
+  align-items: center;
+  margin-left: 150px;
+}
+
+.suggests{
+  margin: 15px;
+  flex-basis: 20%;
+}
+.sidenav_btn>button{
+  width: 100px;
+  height: 35px;
+  margin: 5px;
+  border: 0in;
+  background-color:whitesmoke;
+  border-color: #fff;
+  border-radius: 15px;
+  font-style: inherit;
+  font-size: 15;
+  font-weight: bold;
+  text-align: left;
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.sidenav_btn>button:hover{
+  cursor: pointer;
+}
+
+.sidenav_btn_wrapper:hover{
+   width: 160px;
+   cursor: pointer;
+    height: fit-content;
+    margin: 5px;
+    border: 0in;
+    background-origin: border-box;
+}
+
+.user_det{
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+}
+.user{
+  display: flex;
+  flex-direction: row;
+}
+.uname{
+  align-self: center;
+  margin-left: 10px;
+}
+.like_btns {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+  height: 50px;
+}
+
+.like_btns_left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 150px;
+
+}
+
+

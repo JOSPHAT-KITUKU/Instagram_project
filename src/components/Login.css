@@ -1,0 +1,107 @@
+.register_outer {
+    display: flex;
+    width: 70vw;
+    height: 90vh;
+    border: 1px dotted rgb(237, 234, 234);
+    margin: auto;
+}
+
+.image_wrappers {
+    position: relative;
+    flex: 1;
+}
+
+.image_back>img {
+    position: absolute;
+    z-index: 1;
+    margin: -50x 40px;
+}
+
+.image_front {
+    position: absolute;
+    ;
+    z-index: 2;
+    margin: 30px 60px;
+}
+
+.form1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    object-fit: contain;
+    border: 1px solid lightgrey;
+    margin-top: 10px;
+}
+
+.reg_logo>img {
+    width: 100%;
+    height: 100px;
+    object-fit: contain;
+}
+
+.reg_login {
+    width: 280px;
+    height: 40px;
+    background-color: #00bfff;
+    border-radius: 12px;
+    margin-top: 10px;
+    border: none;
+    font-weight: bold;
+    color: #fff;
+}
+
+.div_lines {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.line1 {
+    height: 2px;
+    width: 130px;
+    background-color: lightgrey;
+    border: none;
+    margin-top: 25px;
+}
+
+.line_text {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+
+}
+
+.phone_login {
+    display: flex;
+    flex-direction: column;
+}
+
+.phone_login>button {
+    background: none;
+    border: none;
+    color: #00bfff;
+    margin-bottom: 10px;
+}
+
+.create_account {
+    border-top: 1px solid lightgrey;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.create_account>p {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.create_account>button {
+    background: none;
+    border: none;
+    color: #00bfff;
+    font-weight: bold;
+}

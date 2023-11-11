@@ -1,0 +1,145 @@
+.post{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border: 1px solid lightgray;
+    background-color: white;
+    margin-bottom: 45px;
+    padding: 20px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.post__username{
+    padding: 10px;
+    font-family: Source Code Pro;
+    font-size: medium;
+}
+.post__timestamp{
+    font-family: Source Code Pro;
+    font-size: medium;
+    color: red;
+}
+.comment_inpt{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.post_comment_btn{
+    background: none;
+    border: none;
+    color: #00bfff;
+    font-size: medium;
+    z-index: 2;
+    margin-left: -35px;
+}
+.post__image{
+    width: 100%;
+    object-fit: contain;
+}
+
+.user_det{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: flex-start;
+    padding: 10px;
+}
+.like_bts{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+}
+.post__likes{
+    align-self: flex-start;
+    font-family: Source Code Pro;
+    font-size: medium;
+}
+.post__comment{
+    font-weight: normal;
+    font-size:medium;
+    font-family: Source Code Pro;
+    align-self: flex-start;
+}
+.lft_btn{
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.btn:hover{
+    background:fixed;
+    cursor: pointer;
+}
+.comment_wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.comment_img {
+    flex-basis: 50%;
+    height: 400px;
+}
+
+.comment_dets__ {
+    flex: 1;
+    position: relative;
+    margin-left: 20px;
+}
+
+.user_prof {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgrey;
+}
+
+.comments__ {
+    height: calc(100% - 50px);
+    overflow-y: auto;
+    padding: 10px;
+    margin-top: 25px;
+}
+
+.comment__ {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.textarea__ {
+    width: 94%;
+    height: 35px;
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    margin-left: 20px;
+}
+
+.textarea__:focus {
+    outline: none;
+}
+
+.post_btn__ {
+    background: none;
+    border: none;
+    color: #00bfff;
+    font-size: small;
+    margin-left: -35px;
+}

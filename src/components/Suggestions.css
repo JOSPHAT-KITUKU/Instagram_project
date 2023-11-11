@@ -1,0 +1,50 @@
+
+.users_wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.user_wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Source Code Pro;
+    font-size: medium;
+    padding: 20px 5px;
+    flex-basis: 100%;
+}
+.user_dets_wrapper{
+    display: flex;
+    flex-direction: row;
+    font-family: Source Code Pro;
+    flex-basis: 100%;
+    font-size: medium;
+    font-size: 12px;
+}
+.user__image{
+    padding:5px;
+}
+.user__name{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    flex-basis: 80%;
+}
+
+
+.follow__btn>button{
+    width: 100px;
+    height: 30px;
+    background: none;
+    border: none;
+    border-radius: 12px;
+    color: #00bfff;
+    font-weight: bold;
+}
+.name__{
+    width: 70%;
+    font-size: small;
+}
+.username__{
+    width: 0%;
+    font-size: small;
+}
